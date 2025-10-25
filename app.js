@@ -36,7 +36,7 @@ function count() {
 
 }
 
-function helloWorld() {
+function initHello() {
     var bitchHTML = document.querySelector("#bitch span")
     bitchHTML.innerText = ["Bitch", "Lox", "Dolbaeb", "Pidor", "Suka", "Chmo"][Math.floor(Math.random() * 10) % 6]
 }
@@ -133,7 +133,7 @@ function helloWorld() {
 
 document.addEventListener('DOMContentLoaded', () => {
     initCount()
-    helloWorld()
+    initHello()
     isWebView = navigator.userAgent.includes('wv')
 
     // console.log('🚀 PWA инициализировано');

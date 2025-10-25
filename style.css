@@ -31,9 +31,14 @@ body {
 
 
 button {
+    transition: 0.1s;
     background-color: black;
     border: none;
     height: 64px;
     width: 64px;
     font-size: 32px;
+
+    &:active {
+        transform: scale(0.9);
+    }
 }
