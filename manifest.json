@@ -3,8 +3,7 @@
     "short_name": "MyPWA",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#ccc",
+    "background_color": "#ccc",
     "icons": [
         {
             "src": "ios/192.png",
