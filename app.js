@@ -1,7 +1,7 @@
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', async () => {
         try {
-            const registration = await navigator.serviceWorker.register('/sw.js');
+            const registration = await navigator.serviceWorker.register('sw.js');
 
             if (registration.installing) {
                 console.log("Service worker installing");

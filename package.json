@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start": "http-server . -p 5500"
+        "start": "http-server . -p 5500 -o"
     },
     "devDependencies": {
         "http-server": "14.1.1"
