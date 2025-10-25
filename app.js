@@ -36,6 +36,11 @@ function count() {
 
 }
 
+function helloWorld() {
+    var bitchHTML = document.querySelector("#bitch span")
+    bitchHTML.innerText = ["Bitch", "Lox", "Dolbaeb", "Pidor", "Suka", "Chmo"][Math.floor(Math.random() * 10) % 6]
+}
+
 
 // function updateOnlineStatus(online) {
 //     const statusElement = document.getElementById('onlineStatus') || createStatusElement();
@@ -128,6 +133,8 @@ function count() {
 
 document.addEventListener('DOMContentLoaded', () => {
     initCount()
+    helloWorld()
+    isWebView = navigator.userAgent.includes('wv')
 
     // console.log('🚀 PWA инициализировано');
     // updateOnlineStatus(navigator.onLine);

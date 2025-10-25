@@ -1,0 +1,39 @@
+body,
+h1,
+p,
+button {
+    margin: 0;
+    font-family: monospace;
+    color: white;
+}
+
+body {
+    background-color: #333;
+}
+
+
+.app {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 64px;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+
+
+button {
+    background-color: black;
+    border: none;
+    height: 64px;
+    width: 64px;
+    font-size: 32px;
+}
